@@ -1,0 +1,267 @@
+/* doctype, html, head, meta, title and body added by me*/
+/* I changed the img size of the members of the team because it didn't look well*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+  font-family: Roboto Condensed;
+}
+
+h1 {
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  margin: 0 0 15px 0; 
+}
+
+h5 {
+  font-size: 1.2em;
+  margin: 25px 0 0; /*este margen lo he añadido yo*/
+}
+
+/*ESTILO DEL NAVEGADOR*/
+
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  padding: 14px;
+  height: 40px;
+}
+
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-bar-item {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.nav-bar-li {
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+
+/*ESTILO DEL HEADER*/
+
+.header-style {
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-position: 0.0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+.header-style .quote {
+  font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  bottom: 15vh;
+}
+
+/*CLASES APLICADAS A VARIOS ELEMENTOS DEL HTML*/
+
+.dark-background {
+  background-color: rgb(25, 33, 41);
+  color: white;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+/*ESTILO DE LA SECCION 1 CON  ID=GENERAL-INFORMATION*/
+
+#general-information. p-text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px;
+}
+
+.link-btn {
+  background-color: blue;
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0;
+  padding: 14px 20px;
+  border: 2px solid black 0.2;
+}
+
+/*ESTILO DE LA SECCION 2 CON ID=STRUCTURE*/
+
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0;
+  padding: 20px;
+  width: 40%;
+}
+
+.service-box .structure-icon {
+  width: 125px;
+}
+
+/*ESTILO DE LA SECCION 3 CON ID=TEAM*/
+
+#team .hr-style {
+  margin: 20px auto 30px;
+  width: 40%
+}
+
+#team .section-text {
+  font-size: 1.9em;
+  text-align: center;
+  width: 60%;
+  margin: 10px auto;
+}
+
+#team .member-name {
+  font-size: 1.5em;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+
+/* ESTILO DE LA SECCION 4 Y TABLA*/
+
+.schedule-table {
+  margin: 0 auto 40px;
+  font-size: 1.5em;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+}
+
+.slot-form-container {
+  width: 40%;
+  margin: 18px auto 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.slot-form-container label {
+  display: block;
+  margin: 0 0 5px;
+  line-height: 15px;
+}
+
+.slot-form-container input,
+.slot-form-container select {
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+
+.slot-form-container button {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin: 15px 0 0;
+}
+
+/*ESTILO DEL FOOTER*/
+
+.footer-style {
+  text-align: center;
+  font-size: 1.9em;
+  padding: 0 100px;
+  margin: 0 0 25px;
+}
+
+.footer-style .adress-style {
+  font-style: normal;
+  font-size: 0.8em;
+  margin: 0 0 30px;
+}
+
+.footer-style .followus-style {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+.footer-style .followus-li {
+  list-style-type: none;
+  text-align: center;
+} 
+
+.footer-style .map-frame {
+  height: 375px;
+  float: right;
+  width: 60%;
+}
+
+/* CLASES PARA MAQUETAR LAS 3 PRIMERAS SECCIONES EN COLUMNAS CON FLOAT*/
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+}
